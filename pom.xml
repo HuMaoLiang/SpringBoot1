@@ -24,6 +24,7 @@
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
+				<!-- 可以将项目打包成jar -->
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>

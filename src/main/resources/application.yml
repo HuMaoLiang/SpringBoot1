@@ -8,9 +8,11 @@ spring:
     password: lijie1234
     url: jdbc:mysql://localhost:3306/springboot?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
     driver-class-name: com.mysql.jdbc.Driver
-    
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
 mybatis:
     type-aliases-package: com.myspringboot
     mapper-locations: classpath:/mapper/*.xml
-#logging:
-#  config: classpath:logback.xml
+

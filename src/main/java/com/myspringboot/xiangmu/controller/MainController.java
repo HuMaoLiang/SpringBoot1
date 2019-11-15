@@ -34,6 +34,7 @@ public class MainController {
 		}else {
 			mav.setViewName("login");
 		}
+		mav.addObject("user", user);
 		return mav;
 	}
 }

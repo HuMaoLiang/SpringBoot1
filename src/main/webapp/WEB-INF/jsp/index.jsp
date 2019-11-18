@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Insert title here</title>
+	<title>伟大的springboot项目</title>
 	<link rel="stylesheet" type="text/css" href="https://heerey525.github.io/layui-v2.4.3/layui-v2.4.5/css/layui.css" />
 	<script src="../../js/jquery.js"></script>
 	<script src="../../js/jquery.min.js"></script>

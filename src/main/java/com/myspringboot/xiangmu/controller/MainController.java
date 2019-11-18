@@ -18,7 +18,7 @@ public class MainController {
 	@Autowired
 	private UserService userService;
 	
-	@RequestMapping("/")
+	@RequestMapping("/spring")
 	public  String  home() {
 		return "index";
 	}

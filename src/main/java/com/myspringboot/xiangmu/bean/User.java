@@ -25,6 +25,13 @@ public class User {
 		this.phone = phone;
 	}
 
+	
+	
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", name=" + name + ", password=" + password + ", phone=" + phone + "]";
+	}
+
 	public long getId() {
 		return id;
 	}

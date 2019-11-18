@@ -13,6 +13,7 @@ import com.myspringboot.xiangmu.bean.User;
 @Mapper
 public interface UserMapper {
 
+	@Select("select * from user where id=#{id} ")
 	User findById(@Param("id") Long id);
 
 	List<User> findAll();

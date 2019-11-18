@@ -1,4 +1,4 @@
-package com.myspringboot.configura.interceptor;
+package com.myspringboot.configura.filter;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
